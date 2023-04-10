@@ -16,7 +16,7 @@ function ThemeToggleButton() {
   }
 
   return (
-    <MdDarkMode className=" cursor-pointer text-2xl  text-white" onClick={toggleTheme}>
+    <MdDarkMode className=" cursor-pointer text-2xl text-white  dark:text-primary" onClick={toggleTheme}>
       {theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
     </MdDarkMode>
   )

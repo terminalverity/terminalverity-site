@@ -1,15 +1,16 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Html, Head, Main, NextScript } from 'next/document';
+// import { DefaultSeo } from 'next-seo';
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
-          rel="stylesheet"
-        />
+      <meta charSet="utf-8" />
+      <meta name="description" content="A proposal for the inevitable intellectual outcome of the interaction of consciousness in reality. de la Página" />
+  <meta name="keywords" content="Collective Perfectionism, Technical Platform, Truth-Seeking
+" />
       </Head>
-      <body className="font-poppins">
+      <body>
         <Main />
         <NextScript />
       </body>

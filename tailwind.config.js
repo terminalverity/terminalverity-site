@@ -6,19 +6,24 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+
+      'display': ['Menlo'],
+      'body': ['"Menlo"'],
+    },
     extend: {
       backgroundColor: {
-        "custom-brown": "#231724",
-        "custom-brown2": "#38202C",
-        "custom-orange": "#F47373",
+        "custom-brown": "#18181b",
+        "custom-brown2": "#2A2A2D",
+        "custom-orange": "#e0e1dd",
       },
       fontFamily: {
         burtons: "burtons",
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
-        primary: "#231724",
-        secondary: "#F47373",
+        primary: "#18181b",
+        secondary: "#e0e1dd",
       },
     },
   },
